@@ -1,0 +1,116 @@
+.video-container1
+{
+  position: absolute;
+  z-index: -100;
+  top:0;
+  left:0;
+  width: 100%;
+  height:calc(100vw * 0.4171875); /*El alto se calcula*/
+  overflow: hidden;
+}
+
+.video-container1 video
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+}
+
+.header1{
+  height:calc(100vw * 0.4171875);
+  text-align: left;
+  width: 40%;
+  margin-left: 5%;
+}
+
+.video-container2
+{
+  position: absolute;
+  z-index: -100;
+  top:0;
+  left:0;
+  width: 100%;
+  height:calc(100vw * 0.5625); /*El alto se calcula*/
+  overflow: hidden;
+}
+
+.video-container2 video
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+}
+
+.header2{
+  height:calc(90vw * 0.5625);
+  text-align: left;
+  width: 40%;
+  margin-left: 5%;
+}
+
+.generos{
+  text-align: center;
+}
+
+.seccion{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.fondo-oscuro{
+  background-color: #272829;
+  color: #fff;
+
+}
+
+.anuncio1{
+  text-align: center;
+  height: 500px;
+  background-image: url('../img/Anuncios/Spider-Man_FFH.jpg');
+  background-attachment: fixed;
+  color: #eee;
+  padding: 100px;
+}
+
+.anuncio2{
+  text-align: center;
+  height: 500px;
+  background-image: url('../img/Anuncios/TheMandalorian.jpg');
+  background-attachment: fixed;
+  color: #eee;
+  padding: 100px;
+}
+
+.anuncio3{
+  text-align: center;
+  height: 500px;
+  background-image: url('../img/Anuncios/Kiminonawa.jpg');
+  background-attachment: fixed;
+  color: #eee;
+  padding: 100px;
+}
+.contacto{
+  padding-bottom: 60px;
+}
+
+.barra{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.fondoLogin{
+  text-align: center;
+  height: 1080px;
+  background-image: url('../img/FondoLogin.jpg');
+  background-attachment: fixed;
+  color: #eee;
+  padding: 100px;
+}
+
+.fondoOpaco{
+    background-color:#272829;
+    filter: alpha(opacity=50);
+    height: 450px;
+}
